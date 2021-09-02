@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family: Lucida Console;
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("Lucida\ Console.ttf");
+}
+#banner {
+    padding: 10px;
+    text-align: center;
+}
+#menu {
+    text-align: center;
+    margin: auto;
+
+}
+#menu li {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+   
+    display: inline-block;
+    font-size: 20px;
+    
+
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    
+}
+#menu li a:visited {
+    color: white;
+    
+}
+#menu li a:hover{
+    color: white ;
+    background-color: #A3D116 ;
+  
+    
+}
+a:active {
+    text-decoration: underline;
+    color: white;
+  }
+.paragrafo {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 500px;
+    padding-top: 50px;
+    margin-left: 500px;
+}
+#img {
+    text-align: center;
+    padding-top: 50px;
+}
+#paragrafo {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 200px;
+    padding-top: 50px;
+    margin-left: 200px;
+    
+}
+
+
+#forms {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+     border-style: none;
+     font-size: 22px;
+}
+
+.form {
+    border-style: none;
+    color: white;
+}
+.rodape {
+	color: white;
+    text-align: left;
+    font-weight: 726;
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+	bottom: 0;
+
+}
